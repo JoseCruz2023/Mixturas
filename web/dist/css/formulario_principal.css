@@ -1,0 +1,146 @@
+
+body{
+    background-color:rgb(223, 216, 202);
+    
+}
+.titulo{
+    padding: 40px;
+    box-shadow: 3px 10px 25px 0 rgba(12,12,12,12);
+    
+
+}
+
+.medio {
+    box-shadow: 5px 10px 15px 0 rgba(12, 12, 12, 12);
+    display: grid;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid blue;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 1em;
+    gap: 1em;
+}
+
+.ultimo {
+    box-shadow: 5px 10px 15px 0 rgba(12, 12, 12, 12);
+    display: grid;
+    margin: auto;
+    width: 250px;
+    height: 300px;
+    border: 1px solid blue;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 1em;
+    gap: 1em;
+}
+
+.primero {
+    box-shadow: 5px 10px 15px 0 rgba(12, 12, 12, 12);
+    display: grid;
+    color: black;
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    border: 1px solid blue;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 1em;
+    gap: 1em;
+}
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    background-color: #D1F2EB;
+}
+/*formulario*/
+.formul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1em;
+}
+.tabla1{
+    padding: 1em;
+    box-shadow: 3px 10px 25px 0 rgba(12,12,12,12);
+    width: 85%;
+}
+.tabla1 th{
+    background-color: rgb(80, 153, 212);
+    text-align: left;
+    margin: 1em;
+}
+
+.ubicacion{
+    box-shadow: 3px 10px 25px 0 rgba(12,12,12,12);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    border: 1px solid blue;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    padding: 1em;
+    gap: 1em;
+}
+
+.table4{
+    box-shadow: 3px 10px 25px 0 rgba(12,12,12,12);
+    margin-left: 30px;
+    width: 90%;
+}
+.table4 th{
+    text-align: left;
+}
+.subtitle{
+    width: 100%;
+    background-color: rgb(7, 7, 26);
+    color: white;
+    padding: 1em;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.tabla2 th{
+    text-align: left;
+}
+.tabla3 th{
+    text-align: left;
+}
+.dre{
+  
+    color: orange;
+}
+.ubi{
+    
+    color: blue;
+}
+.botones{
+    background-color: rgb(83, 83, 104);
+    width: 100%;
+    margin-top: 20px;
+    padding: 1em;
+}
+.botones button{
+    margin: auto;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(56, 56, 66);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-style: inset;
+    border-bottom-color: chartreuse;
+}
+
+.lin{
+   color: lawngreen;
+}

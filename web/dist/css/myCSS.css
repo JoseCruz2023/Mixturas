@@ -1,0 +1,97 @@
+      .myIinfo {
+          color: #0c5460;
+          background-color: #d1ecf1;
+          border-color: #bee5eb;
+      }
+      
+      .myDanger {
+          color: #721c24;
+          background-color: #f8d7da;
+          border-color: #f5c6cb;
+      }
+      
+      .myWarning {
+          color: #856404;
+          background-color: #fff3cd;
+          border-color: #ffeeba;
+      }
+      
+      .mySuccess {
+          color: #155724;
+          background-color: #d4edda;
+          border-color: #c3e6cb;
+      }
+      
+      .fc-title {
+          /* font-size: 16px;*/
+      }
+      
+      .bg-secondary {
+          cursor: not-allowed;
+      }
+      
+      .fc-day,
+      table tbody tr td {
+          /*padding-left: 10%;*/
+      }
+      
+      .btn-circle {
+          width: 30px;
+          height: 30px;
+          padding: 6px 0px;
+          border-radius: 15px;
+          text-align: center;
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 1.42857;
+      }
+      
+      .coloreado {
+          /*background-color: #F0FFF0;*/
+          text-transform: uppercase;
+          color: #1E90FF;
+          font-weight: bold;
+      }
+      
+      select,
+      textarea,
+      input[type=text],
+      input[type=date],
+      input[type=search] {
+          text-transform: uppercase;
+      }
+      
+      select:focus,
+      textarea:focus,
+      input[type=text]:focus,
+      input[type=date]:focus,
+      input[type=search]:focus,
+      .coloreado:focus {
+          background-color: lightblue;
+          font-weight: bold;
+      }
+      
+      #ModalAdd label,
+      #ModalEdit label {
+          border: 0px;
+          padding: 0px;
+      }
+      
+      .oculto {
+          display: none;
+      }
+      
+      .txtArea {
+          background-color: #F0FFF0;
+          text-transform: uppercase;
+          color: #1E90FF;
+      }
+      
+      .txtArea:focus {
+          background-color: lightblue;
+      }
+      
+      .fc-title,
+      .fc-time {
+          /*font-size: 20px;*/
+      }

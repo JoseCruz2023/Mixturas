@@ -1,0 +1,78 @@
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.42857;
+}
+
+.aPrimary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.aSuccess {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.aDanger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.aWarning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.aInfo {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.aSecondary_2 {
+    background-color: #EBDEF0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.form-control:focus {
+    background-color: #b3e5fc00;
+    color: #2646a4;
+}
+
+input,
+select,
+textarea,
+.form-control {
+    color: #2646a4;
+}
+
+input,
+input[readonly],
+select[readonly],
+textarea[readonly],
+.form-control[readonly] {
+    background-color: #ffffde;
+    color: #56728c;
+}
+
+b {
+    font-weight: bold;
+    color: red;
+}
+
+.ocultar_1,
+.ocultar_2 {
+    display: none;
+}
