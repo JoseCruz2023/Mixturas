@@ -64,14 +64,14 @@
                             <div class="row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_dni"><i class="far fa-address-card"></i> DNI</label>
-                                        <input type="number" class="form-control" name="newUsu_dni" id="newUsu_dni" placeholder="Ingrese DNI">
+                                        <label><i class="far fa-address-card"></i> DNI</label>
+                                        <input type="number" class="form-control" name="newUsu_dni" placeholder="Ingrese DNI">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_datos"><i class="far fa-list-alt"></i> DATOS DEL USUARIO</label>
-                                        <input type="text" class="form-control" name="newUsu_datos" id="newUsu_datos" placeholder="Ingrese Datos del Usuario">
+                                        <label><i class="far fa-list-alt"></i> DATOS DEL USUARIO</label>
+                                        <input type="text" class="form-control" name="newUsu_datos" placeholder="Ingrese Datos del Usuario">
                                     </div>
                                 </div>
                             </div>
@@ -79,26 +79,26 @@
                                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                                     <div class="form-group">
                                         <label for="newUsu_fono"><i class="fas fa-mobile-alt"></i> CELULAR</label>
-                                        <input type="number" class="form-control" name="newUsu_fono" id="newUsu_fono" placeholder="Ingrese Celular">
+                                        <input type="number" class="form-control" name="newUsu_fono" placeholder="Ingrese Celular">
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_direc"><i class="fas fa-street-view"></i> DIRECCIÓN</label>
-                                        <input type="text" class="form-control" name="newUsu_direc" id="newUsu_direc" placeholder="Ingrese Direccion del Usuario">
+                                        <label><i class="fas fa-street-view"></i> DIRECCIÓN</label>
+                                        <input type="text" class="form-control" name="newUsu_direc" placeholder="Ingrese Direccion del Usuario">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_alias"><i class="fas fa-user"></i> USUARIO</label>
-                                        <input type="text" class="form-control" name="newUsu_alias" id="newUsu_alias" placeholder="Ingrese Alias">
+                                        <label><i class="fas fa-user"></i> USUARIO</label>
+                                        <input type="text" class="form-control" name="newUsu_alias" placeholder="Ingrese Alias">
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_rol"><i class="fas fa-key"></i> ROL</label>
+                                        <label><i class="fas fa-key"></i> ROL</label>
                                         <select name="newUsu_rol" id="newUsu_rol" class="form-control" onchange="">
                                             <option value="0">-- Seleccione -- </option>
                                             <c:forEach var="cag" items="${cargos}">
@@ -109,8 +109,8 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                                     <div class="form-group">
-                                        <label for="newUsu_contra"><i class="fas fa-user-lock"></i> CONTRASEÑA</label>
-                                        <input type="password" class="form-control" name="newUsu_contra" id="newUsu_contra" placeholder="Ingrese Contraseña">
+                                        <label><i class="fas fa-user-lock"></i> CONTRASEÑA</label>
+                                        <input type="password" class="form-control" name="newUsu_contra" placeholder="Ingrese Contraseña">
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +130,7 @@
                                 </div>
                             </div>
                         <br>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </div>

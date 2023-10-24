@@ -28,10 +28,10 @@ public class Categoria_DAO {
             rs = ps.executeQuery();
             while(rs.next()){
                 mCategoria c = new mCategoria();
-                c.setCateg_codigo(rs.getString("Categ_codigo"));
-                c.setCateg_nombre(rs.getString("Categ_nombre"));
-                c.setCateg_descripcion(rs.getString("Categ_descripcion"));
-                c.setCateg_estado(rs.getInt("Categ_estado"));
+                c.setCateg_codigo(rs.getString("Cat_id"));
+                c.setCateg_nombre(rs.getString("Cat_nombre"));
+                c.setCateg_descripcion(rs.getString("Cat_descri"));
+                c.setCateg_estado(rs.getInt("Cat_estado"));
                 datos.add(c);
             }
         } catch (Exception e) {

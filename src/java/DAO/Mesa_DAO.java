@@ -24,10 +24,9 @@ public class Mesa_DAO {
             rs = ps.executeQuery();
             while(rs.next()){
                 mMesa m = new mMesa();
-                m.setMesa_numero(rs.getInt("Mesa_numero"));
-                m.setMesa_descripcion(rs.getString("Mesa_descripcion"));
-                m.setMesa_numsillas(rs.getInt("Mesa_numsillas"));
-                m.setMesa_piso(rs.getInt("Mesa_piso"));
+                m.setMesa_num(rs.getInt("Mesa_num"));
+                m.setMesa_descri(rs.getString("Mesa_descri"));
+                m.setMesa_nsilla(rs.getInt("Mesa_nsilla"));
                 m.setMesa_estado(rs.getInt("Mesa_estado"));
                 datos.add(m);
             }

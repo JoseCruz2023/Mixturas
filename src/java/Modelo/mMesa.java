@@ -2,61 +2,47 @@
 package Modelo;
 
 /**
- * AUTOR: Oscar Quispe Montalvo
- * FECHA: 13/10/2023
+ *
+ * @author USUARIO
  */
-
 public class mMesa {
-    private int Mesa_numero;
-    private String Mesa_descripcion;
-    private int Mesa_numsillas;
-    private int Mesa_piso;
+    private int Mesa_num;
+    private String Mesa_descri;
+    private int Mesa_nsilla;
     private int Mesa_estado;
-    private int Mesa_baja;
-    
-    public mMesa(){
-        
+
+    public mMesa() {
     }
 
-    public mMesa(int Mesa_numero, String Mesa_descripcion, int Mesa_numsillas, int Mesa_piso, int Mesa_estado, int Mesa_baja) {
-        this.Mesa_numero = Mesa_numero;
-        this.Mesa_descripcion = Mesa_descripcion;
-        this.Mesa_numsillas = Mesa_numsillas;
-        this.Mesa_piso = Mesa_piso;
+    public mMesa(int Mesa_num, String Mesa_descri, int Mesa_nsilla, int Mesa_estado) {
+        this.Mesa_num = Mesa_num;
+        this.Mesa_descri = Mesa_descri;
+        this.Mesa_nsilla = Mesa_nsilla;
         this.Mesa_estado = Mesa_estado;
-        this.Mesa_baja = Mesa_baja;
     }
 
-    public int getMesa_numero() {
-        return Mesa_numero;
+    public int getMesa_num() {
+        return Mesa_num;
     }
 
-    public void setMesa_numero(int Mesa_numero) {
-        this.Mesa_numero = Mesa_numero;
+    public void setMesa_num(int Mesa_num) {
+        this.Mesa_num = Mesa_num;
     }
 
-    public String getMesa_descripcion() {
-        return Mesa_descripcion;
+    public String getMesa_descri() {
+        return Mesa_descri;
     }
 
-    public void setMesa_descripcion(String Mesa_descripcion) {
-        this.Mesa_descripcion = Mesa_descripcion;
+    public void setMesa_descri(String Mesa_descri) {
+        this.Mesa_descri = Mesa_descri;
     }
 
-    public int getMesa_numsillas() {
-        return Mesa_numsillas;
+    public int getMesa_nsilla() {
+        return Mesa_nsilla;
     }
 
-    public void setMesa_numsillas(int Mesa_numsillas) {
-        this.Mesa_numsillas = Mesa_numsillas;
-    }
-
-    public int getMesa_piso() {
-        return Mesa_piso;
-    }
-
-    public void setMesa_piso(int Mesa_piso) {
-        this.Mesa_piso = Mesa_piso;
+    public void setMesa_nsilla(int Mesa_nsilla) {
+        this.Mesa_nsilla = Mesa_nsilla;
     }
 
     public int getMesa_estado() {
@@ -65,14 +51,6 @@ public class mMesa {
 
     public void setMesa_estado(int Mesa_estado) {
         this.Mesa_estado = Mesa_estado;
-    }
-
-    public int getMesa_baja() {
-        return Mesa_baja;
-    }
-
-    public void setMesa_baja(int Mesa_baja) {
-        this.Mesa_baja = Mesa_baja;
     }
     
     

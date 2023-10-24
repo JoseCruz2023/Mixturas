@@ -24,12 +24,12 @@ public class Producto_DAO {
             rs = ps.executeQuery();
             while(rs.next()){
                 mProducto p = new mProducto();
-                p.setProd_codigo(rs.getString("Prod_codigo"));
-                p.setProd_categoria(rs.getString("Prod_categoria"));
-                p.setProd_descripcion(rs.getString("Prod_descripcion"));
+                p.setProd_codigo(rs.getString("Prod_id"));
+                p.setProd_categoria(rs.getString("Prod_categ"));
+                p.setProd_descripcion(rs.getString("Prod_descri"));
                 p.setProd_marca(rs.getString("Prod_marca"));
-                p.setProd_unidmed(rs.getString("Prod_unidmed"));
-                p.setProd_preciounit(rs.getDouble("Prod_preciounit"));
+                p.setProd_unidmed(rs.getString("Prod_undmed"));
+                p.setProd_preciounit(rs.getDouble("Prod_punit"));
                 datos.add(p);
             }
         } catch (Exception e) {

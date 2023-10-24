@@ -54,11 +54,11 @@ public class Usuario_DAO {
                 u.setUsu_contra(rs.getString("Usu_contra"));
                 u.setUsu_dni(rs.getString("Usu_dni"));
                 u.setUsu_datos(rs.getString("Usu_datos"));
-                u.setUsu_direccion(rs.getString("Usu_direccion"));
+                u.setUsu_direccion(rs.getString("Usu_direc"));
                 u.setUsu_fono(rs.getString("Usu_fono"));
                 u.setUsu_rol(rs.getInt("Usu_rol"));
                 u.setUsu_nombrerol(rs.getString("Rol_nombre"));
-                u.setUsu_fechareg(rs.getString("Usu_fechareg"));
+                u.setUsu_fechareg(rs.getString("Usu_fecreg"));
                 u.setUsu_estado(rs.getInt("Usu_estado"));
                 datos.add(u);
             }
@@ -72,8 +72,7 @@ public class Usuario_DAO {
     public boolean Registrar_Usuario(mUsuario u){
         PreparedStatement ps;
         Connection con = conectar.getConexion();
-        String sql = "INSERT INTO usuario(Usu_alias, Usu_contra, Usu_dni, Usu_datos, Usu_direccion, Usu_fono, Usu_rol, Usu_fechareg, Usu_estado) \n" +
-"        VALUES(?,?,?, UPPER(?), UPPER(?),?,?,NOW(),1);";
+        String sql = "CALL sp_new_usuario(?,?,?,?,?,?,?);";
         try {
             ps = (PreparedStatement) con.prepareStatement(sql);
             ps.setString(1, u.getUsu_alias());

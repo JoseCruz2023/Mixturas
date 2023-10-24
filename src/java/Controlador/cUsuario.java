@@ -64,7 +64,7 @@ public class cUsuario extends HttpServlet {
                     }else{
                         request.getRequestDispatcher("cUsuario?accion=new_usuario").forward(request, response);
                     };
-                    break;    
+                    break;
             }
         }
         

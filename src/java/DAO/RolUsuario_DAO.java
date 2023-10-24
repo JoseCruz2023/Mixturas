@@ -30,7 +30,7 @@ public class RolUsuario_DAO {
                 mRolUsuario r = new mRolUsuario();
                 r.setRol_id(rs.getInt("Rol_id"));
                 r.setRol_nombre(rs.getString("Rol_nombre"));
-                r.setRol_descripcion(rs.getString("Rol_descripcion"));
+                r.setRol_descripcion(rs.getString("Rol_descri"));
                 datos.add(r);
             }
         } catch (Exception e) {
